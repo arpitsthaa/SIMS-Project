@@ -1,0 +1,97 @@
+* { -fx-font-family: "Segoe UI", sans-serif; }
+.root { -fx-background-color: #f0f2f5; }
+
+.login-box {
+    -fx-effect: dropshadow(gaussian,
+        rgba(0,0,0,0.15), 30, 0, 0, 8);
+    -fx-min-width: 960px; -fx-max-width: 960px;
+    -fx-min-height: 540px; -fx-max-height: 540px;
+}
+
+.login-left {
+    -fx-background-color: #4f46e5;
+    -fx-padding: 50px 40px;
+    -fx-pref-width: 360px;
+    -fx-background-radius: 12px 0 0 12px;
+    -fx-spacing: 14px;
+}
+
+.login-right {
+    -fx-background-color: white;
+    -fx-padding: 50px 44px;
+    -fx-pref-width: 600px;
+    -fx-background-radius: 0 12px 12px 0;
+    -fx-spacing: 14px;
+}
+
+.login-brand {
+    -fx-text-fill: white;
+    -fx-font-size: 32px;
+    -fx-font-weight: bold;
+}
+
+.login-sub {
+    -fx-text-fill: rgba(255,255,255,0.65);
+    -fx-font-size: 13px;
+    -fx-line-spacing: 4px;
+}
+
+.login-title {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #1e1b4b;
+}
+
+.field-lbl {
+    -fx-font-size: 10px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #6b7280;
+}
+
+.field {
+    -fx-background-color: #f9fafb;
+    -fx-border-color: #e5e7eb;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-border-width: 1px;
+    -fx-padding: 10px 12px;
+    -fx-font-size: 13px;
+    -fx-text-fill: #111827;
+    -fx-prompt-text-fill: #d1d5db;
+    -fx-pref-width: 240px;
+}
+
+.field:focused {
+    -fx-border-color: #4f46e5;
+    -fx-background-color: white;
+}
+
+.btn {
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 24px;
+    -fx-background-radius: 8px;
+    -fx-cursor: hand;
+}
+
+.btn-primary {
+    -fx-background-color: #4f46e5;
+    -fx-text-fill: white;
+}
+
+.btn-primary:hover {
+    -fx-background-color: #4338ca;
+}
+
+.btn-ghost-white {
+    -fx-background-color: transparent;
+    -fx-text-fill: rgba(255,255,255,0.8);
+    -fx-border-color: rgba(255,255,255,0.4);
+    -fx-border-radius: 8px;
+    -fx-border-width: 1px;
+}
+
+.btn-ghost-white:hover {
+    -fx-background-color: rgba(255,255,255,0.1);
+    -fx-text-fill: white;
+}
